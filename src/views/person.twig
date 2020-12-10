@@ -1,0 +1,16 @@
+{% extends "base.twig" %}
+
+{% block title %}
+Data from person
+{% endblock %}
+
+{% block body %}
+<a href="/">Return</a>
+<h1>Data from {{ Person.name }}</h1>
+<ul>
+    <li>Lastname: {{ Person.lastName }}</li>
+    <li>Age: {{ Person.age }}</li>
+    <li>Address: {{ Person.address }}</li>
+    <li>Telephone: {{ Person.telephone }}</li>
+</ul>
+{% endblock %}

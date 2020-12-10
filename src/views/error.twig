@@ -1,0 +1,9 @@
+{% extends "base.twig" %}
+{% block head %}
+    <title>Error on website</title>
+{% endblock %}
+
+{% block body %}
+    <p>Error: {{ message }}</p>
+    <p>{{  stackTrace }}</p>
+{% endblock %}

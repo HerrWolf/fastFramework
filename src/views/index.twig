@@ -1,0 +1,14 @@
+{% extends "base.twig" %}
+
+{% block title %}
+Persons list
+{% endblock %}
+
+{% block body %}
+<h1>Persons list</h1>
+<ul>
+    {% for Person in Persons %}
+    <li><a href='/person/{{ Person.id }}'>{{ Person.name }}</a></li>
+    {% endfor %}
+</ul>
+{% endblock %}

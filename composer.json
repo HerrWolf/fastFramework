@@ -1,0 +1,22 @@
+{
+    "name": "herrw/custom-framework-2",
+    "type": "project",
+    "authors": [
+        {
+            "name": "HerrWolf",
+            "email": "webmasterp2m@gmail.com"
+        }
+    ],
+    "require": {
+        "doctrine/orm": "^2.8",
+        "twig/twig": "^3.1",
+        "symfony/routing": "^5.2",
+        "symfony/http-foundation": "^5.2",
+        "symfony/http-kernel": "^5.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "fastFramework\\": "src/"
+        }
+    }
+}
